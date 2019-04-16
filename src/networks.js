@@ -26,6 +26,7 @@ module.exports = {
   },
   litecoin: {
     messagePrefix: '\x19Litecoin Signed Message:\n',
+    bech32: 'ltc',
     bip32: {
       public: 0x0488b21e,
       private: 0x0488ade4
@@ -36,12 +37,13 @@ module.exports = {
   },
   litecoinTestnet: {
     messagePrefix: '\x19Litecoin Signed Message:\n',
+    bech32: 'tltc',
     bip32: {
-      public: 0x0436f6e1,
-      private: 0x0436ef7d
+      public: 0x043587cf,
+      private: 0x04358394
     },
-    pubKeyHash: 0x6f,
-    scriptHash: 0x3a,
+    pubKeyHash: 0x03,
+    scriptHash: 0x28,
     wif: 0xef
   }
 }
