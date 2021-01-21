@@ -39,11 +39,11 @@ module.exports = {
     messagePrefix: '\x19Litecoin Signed Message:\n',
     bech32: 'tltc',
     bip32: {
-      public: 0x0436EF7D,
-      private: 0x0436F6E1
+      public: 0x043587cf,
+      private: 0x04358394
     },
-    pubKeyHash: 0x6F,
-    scriptHash: 0xc4,
+    pubKeyHash: 0x6f,
+    scriptHash: 0x3a,
     wif: 0xef
   }
 }
